@@ -29,41 +29,59 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float:left;
 }
 
 .b1 {
+	float:left;
 }
 
 .c1 {
+	float:right;
 }
 
 .d1 {
+	float:right;
 }
 
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display:inline-block;
 }
 
 .b2 {
+	display:none;
 }
 
 .c2 {
+	display:inline;
 }
 
 .d2 {
+	display:block;
 }
 
 /* THIRD ROW : POSITION */
 
 .a3 {
+	position:relative;
 }
 
 .b3 {
+	position: absolute;
+	left:150px;
+	top:400px;
 }
 
 .c3 {
+	position: absolute;
+	right:5px;
+	top: 505px;
 }
 
 .d3 {
+	position:fixed;
+	top:300px;
+	left:800px;
 }
