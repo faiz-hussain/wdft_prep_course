@@ -27,12 +27,10 @@ console.log(numbers[3+6]);
 Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
-
-
 var sum = 0;
 
-while(numbers.length <= 10){
-   var sum = numbers.pop();
+while(numbers.length != 0){
+    var sum = numbers.pop();
 }
 
 console.log(sum);
