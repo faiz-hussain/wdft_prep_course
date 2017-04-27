@@ -27,15 +27,15 @@ console.log(numbers[3+6]);
 Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
-
-
 var sum = 0;
+function addValues(){
 
 while(numbers.length != 0){
    var sum = numbers.pop();
+   console.log(sum);
+}
 }
 
-console.log(sum);
 //Not clear about what is meant by "use .pop() to add all the values in the array. .Pop() is used to remove the last element not add"
 
 /*
