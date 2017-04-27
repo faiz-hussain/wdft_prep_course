@@ -35,7 +35,7 @@ while(numbers.length != 0){
    console.log(sum);
 }
 }
-
+addValues();
 //Not clear about what is meant by "use .pop() to add all the values in the array. .Pop() is used to remove the last element not add"
 
 /*
