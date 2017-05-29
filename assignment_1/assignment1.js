@@ -36,8 +36,6 @@ while(numbers.length != 0){
 }
 }
 addValues();
-//Not clear about what is meant by "use .pop() to add all the values in the array. .Pop() is used to remove the last element not add"
-
 /*
 Exercise #5
 Create an empty object and assign it the variable car below.
